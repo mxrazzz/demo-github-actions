@@ -8,7 +8,7 @@ def home():
     hostname = socket.gethostname() # get the hostname of the machine e.g. meraz
     timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S") #get current time and date into string
     response =  { # prints the response as json 
-        "status": "Application is running", 
+        "status": "Application is running v2", 
         "hostname": hostname,
         "timestamp": timestamp
     }
