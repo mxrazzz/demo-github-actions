@@ -31,4 +31,4 @@ def test_status_message(client):
     """Test that status message is correct"""
     response = client.get('/')
     json_data = response.get_json()
-    assert json_data['status'] == 'Application is running'
+    assert json_data['status'] == 'Application is running v2'
